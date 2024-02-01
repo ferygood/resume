@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.resume {
+    width: 210mm;
+    margin: 20mm auto;
+    border: 5px solid #ccc;
+    padding: 10mm;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+header {
+    background-color: #81D8D0;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    flex: 7;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    flex: 3;
+}
+
+.header-avatar img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+section {
+    margin-bottom: 10mm;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex: 1;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
