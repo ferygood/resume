@@ -7,64 +7,51 @@ body {
 .resume {
     width: 210mm;
     margin: 20mm auto;
-    border: 5px solid #ccc;
-    padding: 10mm;
-}
-
-h1, h2, h3 {
-    color: #333;
-}
-
-header {
-    background-color: #81D8D0;
-    padding: 10px;
+    border: 2px solid #ccc;
+    padding: 1mm;
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #9DD2D2;
+    position: relative;
 }
 
-.header-left {
-    flex: 7;
-}
-
-header h1 {
-    margin: 0;
-}
-
-.header-avatar {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 50px;
-    height: 50px;
+.avatar-space {
     flex: 3;
+    position: relative;
 }
 
-.header-avatar img {
-    width: 100%;
-    height: 100%;
-    display: block;
+.avatar {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    margin-left: 40px;
+    overflow: hidden;
+    margin-top: 17mm;
 }
 
-section {
-    margin-bottom: 10mm;
-}
-
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.portfolio-item {
-    flex: 1;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-.portfolio-item img {
-    width: 100%;
+.avatar img {
+    transform: translate(-40% -40%);
+    width: 160px;
     height: auto;
-    display: block;
+    margin-top: 0;
+}
+
+.header-text{
+    flex: 4;
+    padding-top: 10mm;
+    color: white;
+}
+
+.header-contact {
+    flex: 3;
+    color: white;
+    padding-top: 5.5mm;
+}
+
+.position {
+    padding-left: 62mm;
 }
