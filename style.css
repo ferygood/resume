@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.resume {
+    width: 210mm;
+    margin: 20mm auto;
+    border: 2px solid #ccc;
+    padding: 1mm;
+}
+
+.header-content {
+    display: flex;
+    background-color: #9DD2D2;
+    position: relative;
+}
+
+.avatar-space {
+    flex: 3;
+    position: relative;
+}
+
+.avatar {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    margin-left: 40px;
+    overflow: hidden;
+    margin-top: 17mm;
+}
+
+.avatar img {
+    transform: translate(-40% -40%);
+    width: 160px;
+    height: auto;
+    margin-top: 0;
+}
+
+.header-text{
+    flex: 4;
+    padding-top: 10mm;
+    color: white;
+}
+
+.header-contact {
+    flex: 3;
+    color: white;
+    padding-top: 5.5mm;
+}
+
+.position {
+    padding-left: 62mm;
+}
