@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async function () {
   // Fetch the configuration from config.json
-  const response = await fetch('config.json');
+  const response = await fetch('configs/config.json');
   const config = await response.json();
 
   // Replace the placeholder in the HTML template
